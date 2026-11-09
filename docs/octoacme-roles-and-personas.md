@@ -75,7 +75,201 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## Design / UX Lead
+
+### Role Summary
+Design / UX Leads shape the user experience, validate assumptions with users, and ensure the product is usable, accessible, and aligned to customer needs.
+
+### Responsibilities
+- Lead user research, usability testing, and design validation
+- Define interaction patterns, accessibility standards, and design quality guidelines
+- Translate customer and product needs into clear UX direction and flows
+- Partner with Product Managers to assess value and with Developers to ensure feasible implementation
+- Review design decisions against acceptance criteria and success metrics
+
+### Goals
+- Improve usability, accessibility, and customer satisfaction
+- Reduce rework caused by unclear requirements or poor experience design
+- Align product behavior with user and business goals
+
+### Typical Communication
+- Product discovery and customer feedback sessions
+- Design reviews and prototype walkthroughs
+- Collaboration with Product, Engineering, and QA on readiness and acceptance
+
+### Interaction with Existing Roles
+- Works closely with Product Managers to validate the problem and prioritize user outcomes
+- Collaborates with Developers to make design feasible and testable
+- Partners with QA/Test Leads to confirm usability, accessibility, and acceptance criteria are covered
+- Informs the Project Manager on milestone readiness, dependencies, and customer-impacting changes
+
+---
+
+## Engineering / Technical Lead
+
+### Role Summary
+Engineering / Technical Leads guide technical direction, delivery quality, and architecture decisions so the team can implement the product safely and with clear trade-offs.
+
+### Responsibilities
+- Set technical direction, standards, and architecture guardrails
+- Help estimate effort, identify dependencies, and manage technical risk
+- Guide implementation decisions and support solving complex design problems
+- Coordinate across engineering contributors and escalate issues when needed
+- Align technical choices with product goals, project timelines, and operational constraints
+
+### Goals
+- Deliver maintainable, testable, and scalable solutions
+- Reduce delivery risk and technical debt
+- Keep the project aligned with architectural and operational constraints
+
+### Typical Communication
+- Architecture reviews and technical planning discussions
+- Engineering standups and design review sessions
+- Escalation updates to Product and Project leadership when risk or dependency changes occur
+
+### Interaction with Existing Roles
+- Partners with Product Managers on trade-offs between scope, quality, and timeline
+- Coordinates with Developers on implementation standards and delivery planning
+- Supports Project Managers in dependency planning and escalation paths
+- Works with Security and QA Leads to ensure technical risks and release readiness are addressed
+
+---
+
+## QA / Test Lead
+
+### Role Summary
+QA / Test Leads define quality strategy, validation practices, and release readiness criteria so that product changes meet agreed standards and user expectations.
+
+### Responsibilities
+- Define test plans, quality criteria, and regression coverage
+- Coordinate manual and automated validation across features and release candidates
+- Review acceptance criteria with Product Managers and Developers
+- Identify quality risks, gaps, and blockers early in the lifecycle
+- Support release readiness and communicate any material quality concerns
+
+### Goals
+- Improve confidence in product quality and stability
+- Catch issues early to reduce cost and delay
+- Ensure a clear understanding of quality expectations before release
+
+### Typical Communication
+- Sprint and release readiness reviews
+- QA planning, bug triage, and test status updates
+- Coordination with Product, Engineering, and Project stakeholders on sign-off and rollback risk
+
+### Interaction with Existing Roles
+- Works with Product Managers to ensure acceptance criteria are measurable and testable
+- Collaborates with Developers to validate implementation and identify defects early
+- Partners with Project Managers to track release blockers and readiness status
+- Coordinates with Security and Operations roles when testing reveals production or compliance concerns
+
+---
+
+## Security / Privacy Lead
+
+### Role Summary
+Security / Privacy Leads ensure that products and processes address security, privacy, and compliance requirements during planning, delivery, and release.
+
+### Responsibilities
+- Review design and implementation choices for security and privacy risk
+- Define controls, compliance expectations, and mitigation plans
+- Help assess risks, review exceptions, and escalate material concerns
+- Support secure architecture decisions and incident response coordination when needed
+- Communicate policy constraints and risk trade-offs to the broader team
+
+### Goals
+- Reduce security and privacy exposure
+- Align the product with required policies and stakeholder expectations
+- Support safe, compliant delivery and release decisions
+
+### Typical Communication
+- Security reviews, design assessments, and escalation updates
+- Coordination with engineering and release stakeholders on risk and controls
+- Briefings for Product and Project leadership when risk or compliance decisions affect scope or launch timing
+
+### Interaction with Existing Roles
+- Advises Product Managers on risk, priority, and trade-offs tied to security or compliance work
+- Guides Engineering / Technical Leads on secure implementation and validation
+- Supports QA/Test Leads on security-focused validation and release gates
+- Coordinates with Project Managers and stakeholders where controls affect schedule, communication, or deployment decisions
+
+---
+
+## Data / Analytics Lead
+
+### Role Summary
+Data / Analytics Leads define how the team measures success, validates product outcomes, and ensures that the product collects the right evidence for decision-making.
+
+### Responsibilities
+- Define instrumentation, dashboard needs, and product analytics requirements
+- Work with Product Managers to align metrics with business goals and user outcomes
+- Validate whether release changes are delivering expected results
+- Identify measurement gaps, risks, and dependencies affecting decision quality
+- Ensure analytics reporting supports ongoing iteration and stakeholder communication
+
+### Goals
+- Improve decision quality with measurement and evidence
+- Ensure product value is visible and understandable to stakeholders
+- Support continuous improvement through measurable learning
+
+### Typical Communication
+- Metric definition and reporting sessions
+- Dashboards, experiments, and outcome review meetings
+- Alignment with Product, Engineering, and Project teams on data quality and release impact
+
+### Interaction with Existing Roles
+- Works with Product Managers to define success metrics and prioritize the right signals
+- Collaborates with Developers to confirm instrumentation is implemented correctly
+- Supports QA/Test Leads by verifying the data quality and measurement flow for changed features
+- Helps Project Managers communicate progress and impact using objective signals
+
+---
+
+## Operations / Customer Support Representative
+
+### Role Summary
+Operations / Customer Support Representatives ensure the team understands customer impact, handoff readiness, and operational implications of project delivery.
+
+### Responsibilities
+- Provide input on supportability, customer workflows, and operational readiness
+- Help identify service or support issues that may affect launch or adoption
+- Coordinate escalation paths for customer-impacting defects or incidents
+- Contribute to launch communication and post-release follow-up
+- Partner with Product and Project teams to improve customer experience during and after rollout
+
+### Goals
+- Reduce customer friction and operational surprises
+- Improve readiness for support and adoption after launch
+- Ensure feedback from real-world usage reaches the delivery team
+
+### Typical Communication
+- Release readiness, launch support, and incident coordination
+- Customer feedback reviews and operational triage
+- Cross-functional handoffs with Product, Project, Engineering, and QA teams
+
+### Interaction with Existing Roles
+- Provides Product Managers with customer pain points and operational feedback
+- Coordinates with Project Managers on launch communication and support planning
+- Shares issues and risks with Developers and QA to improve quality and serviceability
+- Helps determine whether a release is ready from a customer support and operational perspective
+
+---
+
+## Role Interaction and Accountability
+
+These roles are not always separate people or permanent teams. In smaller projects, one person may fill multiple responsibilities. In larger projects, dedicated leads may be assigned. In either case, the project should document:
+
+- Which responsibilities are assigned to which role
+- Where accountability is shared or combined
+- Which decisions require cross-functional review
+- How escalations flow between Product, Engineering, Project, and specialist roles
+
+This clarity helps avoid ambiguity, reduces duplicate work, and improves handoffs across initiation, planning, execution, QA, release, and retrospective activities.
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
+- When a project needs extra expertise, add the relevant persona and document how it interacts with the existing project roles.
 
